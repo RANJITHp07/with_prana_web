@@ -14,7 +14,7 @@ const selectedTextColor = 'text-white';
 const selectedBgColor = 'bg-[#2B7272]';
 
 export default function BadgeSelector() {
-    const [selectedBadges, setSelectedBadges] = useState();
+    const [selectedBadges, setSelectedBadges] = useState('');
 
     const toggleBadge = (label: string) => {
         setSelectedBadges(label);
